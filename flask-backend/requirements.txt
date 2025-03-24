@@ -9,7 +9,7 @@ python-dotenv==0.19.1
 
 # Database
 SQLAlchemy==1.4.27
-PyMySQL==1.0.2
+PyMySQL==1.1.1
 mysqlclient==2.2.0
 alembic==1.7.5
 
