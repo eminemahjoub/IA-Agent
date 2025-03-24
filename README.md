@@ -87,6 +87,37 @@ The assistant supports voice commands through the Web Speech API, allowing users
 - Multi-language support for global users
 - Advanced context tracking across conversation sessions
 
+### Python AI Microservice
+
+The application includes a Python-based AI microservice that provides enhanced natural language processing and machine learning capabilities:
+
+- **Advanced NLP Analysis** using spaCy and Hugging Face transformers
+- **Named Entity Recognition** with custom domain-specific entities
+- **Sentiment Analysis** with emotion detection and productivity insights
+- **Task Recommendation** using machine learning and user behavior patterns
+- **Text Completion** for command prediction and suggestions
+
+The Python service communicates with the Node.js backend through a REST API, providing seamless integration between the two technologies.
+
+#### Python Stack:
+
+- **Flask**: Lightweight web framework for the API
+- **spaCy**: Industrial-strength NLP library
+- **Transformers**: State-of-the-art NLP models
+- **scikit-learn**: Machine learning library
+- **pandas**: Data analysis and manipulation
+
+#### Installing and Running the Python Service:
+
+```bash
+cd python-ai-service
+pip install -r requirements.txt
+python -m spacy download en_core_web_md
+python app.py
+```
+
+The service will run on port 5001 by default and will be automatically used by the Node.js backend when available.
+
 ## Tech Stack
 
 - Frontend: React with Material-UI
