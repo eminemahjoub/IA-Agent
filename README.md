@@ -1,14 +1,25 @@
 # Personal Productivity Assistant
 
-An AI agent designed to help users manage their daily tasks, schedules, and workflows.
+An AI-powered assistant designed to help users manage their daily tasks, schedules, and workflows.
 
 ## Features
 
+- **Natural Language Processing**: Understand and respond to user commands in natural language
 - **Task Management**: Add, prioritize, and remind users of tasks
 - **Calendar Integration**: Sync with Google Calendar or Outlook to schedule meetings
 - **Email Automation**: Draft emails, categorize incoming messages, and suggest responses
 - **Focus Mode**: Monitor user activity and suggest breaks or focus periods
 - **Habit Tracking**: Encourage users to build healthy habits (e.g., drinking water, exercising)
+
+## AI Capabilities
+
+This application leverages Natural Language Processing (NLP) to provide an intuitive interface for users. The AI assistant can:
+
+- Process natural language commands like "add task finish report by tomorrow"
+- Recognize user intents and extract relevant entities
+- Perform actions based on understood commands
+- Respond conversationally to user queries
+- Learn from interactions to improve over time
 
 ## Tech Stack
 

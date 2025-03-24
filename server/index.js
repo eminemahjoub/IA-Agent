@@ -26,6 +26,7 @@ app.use('/api/email', require('./routes/api/email'));
 app.use('/api/habits', require('./routes/api/habits'));
 app.use('/api/habit-progress', require('./routes/api/habitProgress'));
 app.use('/api/focus', require('./routes/api/focus'));
+app.use('/api/commands', require('./routes/api/commands'));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
