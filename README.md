@@ -1,6 +1,6 @@
 # Personal Productivity Assistant
 
-An AI-powered assistant designed to help users manage their daily tasks, schedules, and workflows.
+An AI-powered assistant designed to help users manage their daily tasks, schedules, and workflows through natural language interaction.
 
 ## Features
 
@@ -11,22 +11,88 @@ An AI-powered assistant designed to help users manage their daily tasks, schedul
 - **Focus Mode**: Monitor user activity and suggest breaks or focus periods
 - **Habit Tracking**: Encourage users to build healthy habits (e.g., drinking water, exercising)
 
-## AI Capabilities
+## Artificial Intelligence Capabilities
 
-This application leverages Natural Language Processing (NLP) to provide an intuitive interface for users. The AI assistant can:
+This application leverages Natural Language Processing (NLP) to provide an intuitive conversational interface. The AI assistant functions as a personal productivity coach that understands context and user habits.
 
-- Process natural language commands like "add task finish report by tomorrow"
-- Recognize user intents and extract relevant entities
-- Perform actions based on understood commands
-- Respond conversationally to user queries
-- Learn from interactions to improve over time
+### NLP Architecture
+
+- **Intent Recognition**: Identifies the user's goal from natural language input
+- **Entity Extraction**: Pulls out key information like dates, names, and task descriptions
+- **Contextual Understanding**: Maintains conversation context for follow-up commands
+- **Action Execution**: Translates understood commands into system actions
+- **Conversational Response**: Generates human-like responses with appropriate information
+
+### Supported Command Categories
+
+1. **Task Management**
+   - "Add task finish report by tomorrow"
+   - "Create a new task to call John"
+   - "Remind me to buy groceries at 5pm"
+   - "Show me all my high priority tasks"
+   - "What tasks are due today?"
+
+2. **Habit Tracking**
+   - "Create a habit to drink water"
+   - "Track my meditation habit"
+   - "Log 30 minutes of exercise for today"
+   - "Show my habit progress for this week"
+   - "Which habits am I currently tracking?"
+
+3. **Focus Mode**
+   - "Start a focus session for 25 minutes"
+   - "Begin pomodoro timer"
+   - "End current focus session"
+   - "How long have I been focusing?"
+
+4. **Calendar & Scheduling**
+   - "Schedule a meeting with Sarah tomorrow at 2pm"
+   - "Add dentist appointment on Friday at 10am"
+   - "Show my calendar for next week"
+   - "What meetings do I have today?"
+
+5. **Email Management**
+   - "Draft an email to boss@company.com about project status"
+   - "Check my recent emails"
+   - "Show unread messages"
+
+### Technical Implementation
+
+The AI system uses:
+
+- **Node-NLP Library**: For intent classification and entity extraction
+- **Custom Training Data**: Domain-specific examples for productivity tasks
+- **Confidence Scoring**: Evaluates certainty of understanding before taking actions
+- **Intent Handlers**: JavaScript functions that process specific user intents
+- **Fallback Mechanisms**: Graceful handling of misunderstood commands
+
+### Speech Recognition
+
+The assistant supports voice commands through the Web Speech API, allowing users to:
+- Activate the microphone for hands-free operation
+- Convert spoken language to text commands
+- Receive audio feedback for key notifications
+
+### AI Learning & Improvement
+
+- **Command Patterns**: Identifies common user command patterns
+- **Suggestion Refinement**: Improves suggestions based on user habits
+- **Vocabulary Expansion**: Adds new terminology based on user interaction
+
+### Future AI Enhancements
+
+- Integration with larger language models for more complex understanding
+- Sentiment analysis to detect user stress levels
+- Predictive task creation based on historical patterns
+- Multi-language support for global users
+- Advanced context tracking across conversation sessions
 
 ## Tech Stack
 
 - Frontend: React with Material-UI
 - Backend: Node.js and Express
 - Database: MySQL with Sequelize ORM
-- Natural Language Processing (NLP) for understanding user commands
+- Natural Language Processing: node-nlp
 - APIs for calendar (Google Calendar, Outlook) and email services
 - Machine learning models for habit prediction and task prioritization
 
@@ -79,6 +145,11 @@ The application uses MySQL with Sequelize ORM. The main tables are:
 ## Usage
 
 After setup, the application will be available at `http://localhost:3000`
+
+You can interact with the assistant by:
+1. Typing natural language commands in the command bar
+2. Using the microphone button for voice commands
+3. Accessing specific features through the UI components
 
 ## License
 
