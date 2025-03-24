@@ -1,7 +1,7 @@
 {
-  "name": "personal-productivity-assistant",
+  "name": "prodigyai",
   "version": "1.0.0",
-  "description": "AI-powered personal productivity assistant",
+  "description": "ProdigyAI - Intelligent productivity assistant with advanced machine learning capabilities",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",

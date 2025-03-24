@@ -1,6 +1,6 @@
-# Python AI Service for Productivity Assistant
+# Python AI Service for ProdigyAI
 
-This is the Python-based AI microservice that enhances the Personal Productivity Assistant with advanced natural language processing and machine learning capabilities.
+This is the Python-based AI microservice that powers ProdigyAI's advanced natural language processing and machine learning capabilities, providing intelligent productivity recommendations and insights.
 
 ## Features
 

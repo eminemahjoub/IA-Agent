@@ -1,6 +1,16 @@
-# Personal Productivity Assistant
+# ProdigyAI: Your Intelligent Productivity Companion
 
-An AI-powered assistant designed to help users manage their daily tasks, schedules, and workflows through natural language interaction.
+ProdigyAI is a state-of-the-art productivity assistant that combines the power of natural language processing, machine learning, and neural networks to create an intelligent companion that adapts to your workflow. More than just a task manager, ProdigyAI learns from your habits, anticipates your needs, and provides personalized guidance to boost your productivity and well-being.
+
+## Key Capabilities
+
+- **Conversational Intelligence**: Interact naturally through text or voice with an AI that understands context, nuance, and intent
+- **Smart Task Management**: Automatically prioritize, categorize, and schedule tasks based on your work patterns and preferences
+- **Adaptive Scheduling**: Optimize your calendar with AI-powered scheduling that respects your energy levels and focus times
+- **Intelligent Email Handling**: Filter, summarize, and draft emails with contextual awareness of your communication style
+- **Focus Optimization**: Scientifically designed focus sessions with personalized recommendations for maximum productivity
+- **Habit Formation System**: Data-driven habit tracking with personalized reinforcement strategies based on behavioral science
+- **Dual AI Architecture**: Hybrid JavaScript/Python AI system combining lightweight NLP for responsiveness with powerful machine learning for advanced features
 
 ## Features
 
