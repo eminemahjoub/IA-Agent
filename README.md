@@ -130,12 +130,48 @@ The service will run on port 5001 by default and will be automatically used by t
 
 ## Tech Stack
 
-- Frontend: React with Material-UI
-- Backend: Node.js and Express
-- Database: MySQL with Sequelize ORM
-- Natural Language Processing: node-nlp
-- APIs for calendar (Google Calendar, Outlook) and email services
-- Machine learning models for habit prediction and task prioritization
+### Frontend
+- **React**: Modern, component-based UI library
+- **Material-UI**: React component library implementing Google's Material Design
+- **Redux**: State management for the application
+- **React Router**: Navigation and routing solution
+- **Socket.io Client**: Real-time communication with backend
+- **Chart.js**: Data visualization for habit tracking and productivity analytics
+
+### Backend
+- **Node.js**: Core runtime environment
+- **Express**: Web application framework
+- **JWT**: Authentication and secure API access
+- **Socket.io**: Real-time bidirectional communication
+
+### Python AI Service
+- **Flask**: Lightweight web framework for Python
+- **spaCy**: Industrial-strength natural language processing
+- **Transformers (Hugging Face)**: State-of-the-art NLP models
+- **scikit-learn**: Machine learning library for task prediction
+- **pandas**: Data analysis and manipulation tool
+
+### Database
+- **MySQL**: Relational database for structured data
+- **Sequelize ORM**: Object-relational mapping for database interactions
+- **SQLAlchemy** (Python service): SQL toolkit and ORM for Python
+
+### Natural Language Processing & AI
+- **node-nlp**: Core NLP capabilities in JavaScript
+- **Web Speech API**: Speech recognition and synthesis
+- **Custom intent recognition**: Domain-specific language understanding
+- **Sentiment analysis**: Emotion detection in user interactions
+
+### External Integrations
+- **Google Calendar API**: Calendar synchronization
+- **Microsoft Graph API**: Outlook calendar and email integration
+- **Gmail API**: Email management
+
+### DevOps & Infrastructure
+- **Docker** (optional): Containerization for deployment
+- **Git & GitHub**: Version control and collaboration
+- **Dotenv**: Environment configuration management
+- **Nodemon**: Development server with auto-restart capability
 
 ## Setup Instructions
 
